@@ -1,0 +1,12 @@
+ul li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+.nav-menu ul {
+  display: flex;
+  gap: 12px;
+}
