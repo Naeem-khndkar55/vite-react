@@ -1,0 +1,11 @@
+.product-card {
+  background-color: blueviolet;
+  width: 340px;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 16px 0px;
+}
+.cart-button {
+  padding: 10px 16px;
+  border-radius: 8px;
+}

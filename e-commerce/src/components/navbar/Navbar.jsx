@@ -11,8 +11,8 @@ export function Navber() {
           {navitems.map((navitem) => {
             return <NavMenuUtem key={navitem} title={navitem} />;
           })}
+          {isAuthenticated ? <button>Logout</button> : <button>Login</button>}
         </ul>
-        {isAuthenticated ? <button>Logout</button> : <button>Login</button>}
       </div>
     </div>
   );

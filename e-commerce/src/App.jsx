@@ -1,4 +1,4 @@
-import { Navber, Footer } from "./components";
+import { Navber, Footer, Products } from "./components";
 
 import "./App.css";
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navber />
-      <div className="main"> naeem khandakar</div>
+      <Products />
       <Footer />
     </div>
   );
